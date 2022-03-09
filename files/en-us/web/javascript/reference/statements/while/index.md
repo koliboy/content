@@ -64,6 +64,17 @@ Therefore, `x` and `n` take on the following values:
 After completing the third pass, the condition `n` < 3 is no longer true,
 so the loop terminates.
 
+It does a [true]('/en-US/docs/Glossary/Truthy'), check if `i` `10` is not equal to `i` `10` then it becomes a [false](/en-US/docs/Glossary/Falsy),. for example like this
+```js
+let  i =0;
+    var re = 0;
+   while(i !=10){
+      re += i;
+      
+     i++
+   }
+
+```
 ### Using an assignment as a condition
 
 In some cases, it can make sense to use an assignment as a condition — but when you do, there's a best-practice syntax you should know about and follow.
